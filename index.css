@@ -1,0 +1,65 @@
+/* Week5.css */
+body{
+  background-color: green;
+}
+.week5-container1 {
+  background-color: lightgreen;
+  border-radius: 20px; /* Adjust border-radius for curved edges */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+hr {
+  border-top: 5px solid #000000;
+  width: 800px;
+  margin: 0 auto;
+  padding: auto;
+}
+.week5-container2 {
+  background-color: lightgreen;
+  border-radius: 20px; /* Adjust border-radius for curved edges */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.nice-color {
+  background-color: #ffe5e5; /* Example color */
+  /* You can adjust this color value to your preference */
+}
+
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
